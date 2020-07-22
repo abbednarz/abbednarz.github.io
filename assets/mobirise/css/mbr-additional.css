@@ -2738,6 +2738,15 @@ section.lazy-placeholder:after {
     -webkit-justify-content: center;
   }
 }
+.cid-s5vp6CdAOX {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-s5vp6CdAOX .mbr-text,
+.cid-s5vp6CdAOX blockquote {
+  color: #767676;
+}
 .cid-s5dLX3UWVr .navbar {
   background: #ffffff;
   transition: none;
