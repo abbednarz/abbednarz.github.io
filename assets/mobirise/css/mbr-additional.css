@@ -2738,6 +2738,18 @@ section.lazy-placeholder:after {
     -webkit-justify-content: center;
   }
 }
+.cid-s5vpM1soh9 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-s5vpM1soh9 .mbr-text,
+.cid-s5vpM1soh9 blockquote {
+  color: #767676;
+}
+.cid-s5vpM1soh9 .mbr-text {
+  color: #ffffff;
+}
 .cid-s5dLX3UWVr .navbar {
   background: #ffffff;
   transition: none;
