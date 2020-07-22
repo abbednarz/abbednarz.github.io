@@ -43,9 +43,9 @@
     "screenshot": "screenshot.png",
     "favicon": false,
     "robotsSwitcher": false,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
-    "siteUrl": false,
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": "https://abednarz.pl",
     "cookiesAlert": {
       "customDialogSelector": false,
       "colorText": "#424a4d",
