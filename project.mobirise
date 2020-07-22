@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Andrzej Bednarz",
+    "name": "Andrzej Bednarz Fotograf i Grafik Komputerowy Rybnik śląskie",
     "currentPage": "galeria-abednarz.html",
     "theme": {
       "name": "mobirise4",
@@ -46,15 +46,26 @@
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
-    "cookiesAlert": false,
+    "cookiesAlert": {
+      "customDialogSelector": false,
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "99",
+      "opacityOverlay": "80",
+      "text": "W celu poprawy jakości naszych usług, stosujemy na tej stronie pliki cookies..",
+      "textButton": "Akceptuję"
+    },
     "gdpr": false
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "Strona główna Fotografa Andrzeja Bednarza z Rybnika",
+        "meta_descr": "Zapraszam do skorzystania z mojej oferty z zakresu fotografii i grafiki Wykonuję zdjęcia na ślubach, komuniach, chrztach i innych uroczystościach Wejdź i zapoznaj się z moją ofertą",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -598,8 +609,8 @@
     },
     "galeria-abednarz.html": {
       "settings": {
-        "meta_descr": "Website Maker Description",
-        "title": "Galeria",
+        "meta_descr": "Zobacz jakie zdjęcia wykonuję i zamów mnie na swój ślub, chrzest, komunię Robię również portrety i sesje narzeczeńskie",
+        "title": "Fotograf Andrzej Bednarz i moje zdjęcia z uroczystości",
         "order": 3
       },
       "components": [
@@ -1630,8 +1641,8 @@
     },
     "omnie-abednarz.html": {
       "settings": {
-        "meta_descr": "Website Maker Description",
-        "title": "O mnie",
+        "meta_descr": "Posiadam doświadczenie w fotografii reportażowej Wykonam dla Ciebie zdjęcia na ślubie, na komunii lub innych uroczystościach taich jak chrzest Jeśli chcesz mieć sesję fotograficzną to również dobrze trafiłeś/aś",
+        "title": "Fotograf i grafik Andrzej Bednarz poznaj mnie i zamów na ślub",
         "order": 2
       },
       "components": [
@@ -2243,8 +2254,8 @@
     },
     "kontakt-abednarz.html": {
       "settings": {
-        "meta_descr": "Site Builder Description",
-        "title": "Kontakt",
+        "meta_descr": "Od fotografa Andrzej Bednarz czyli ode mnie łatwo uzyskasz wszystkie niezbędne informacje jeśli szukasz fotografa na ślub, komunię czy inny reportaż Wejdź i zadzwoń",
+        "title": "Skontaktuj się ze mną - fotografem Andrzej Bednarz",
         "order": 1
       },
       "components": [
