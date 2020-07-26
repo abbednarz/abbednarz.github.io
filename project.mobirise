@@ -5091,29 +5091,6 @@
         {
           "alias": false,
           "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            }
-          },
-          "_name": "header2",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pełny ekran\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Pokaż strzałki\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Pokaż tytuł\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Pokaż podtytuł\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Pokaż tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Pokaż przyciski\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Obrazek\" value=\"@PROJECT_PATH@/assets/images/osiemnastka-dominik-305-2000x1333.jpg\" selected parallax>\n            <input type=\"color\" title=\"Kolor ta\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Film\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Nakładka\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Kolor nakładki\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Przejrzystość\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Uwiecznię Twoje \n<div>18 urodziny na zdjęciach</div></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Piękne, przyjazne urządzeniom mobilnym strony internetowe\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Szykuje się impreza z okazji Twojej osiemnastki i zastanawiasz się nad fotografem?\n<br>Dobrze trafiłeś/aś ! Wykonam reportaż z całej imprezy. Zleć to mnie.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">CZYTAJ DALEJ</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
-          "_cid": "s5RfqbDJVy",
-          "_anchor": "header2-1z",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
             ".navbar": {
               "background": "@menuBgColor",
               "transition": "none",
