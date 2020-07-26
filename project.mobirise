@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Andrzej Bednarz Fotograf i Grafik Komputerowy Rybnik śląskie",
-    "currentPage": "fotograf-osiemnastki-abednarz.html",
+    "currentPage": "galeria-abednarz.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -62,7 +62,7 @@
     "gdpr": false,
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-173216357-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-173216357-1');\n</script>\n",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "publishChangesOnly": false
+    "publishChangesOnly": true
   },
   "pages": {
     "index.html": {
@@ -1552,7 +1552,137 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Tutaj wstaw opis",
+                "active": false
+              },
+              {
+                "tags": "18 Osiemnastka",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/osiemnastka-dominik-117-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/osiemnastka-dominik-117-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tutaj wstaw opis",
+                "active": false
+              },
+              {
+                "tags": "18 Osiemnastka",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/osiemnastka-dominik-85-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/osiemnastka-dominik-85-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tutaj wstaw opis",
+                "active": false
+              },
+              {
+                "tags": "18 Osiemnastka",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/osiemnastka-dominik-166-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/osiemnastka-dominik-166-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tutaj wstaw opis",
+                "active": false
+              },
+              {
+                "tags": "18 Osiemnastka",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/osiemnastka-dominik-246-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/osiemnastka-dominik-246-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tutaj wstaw opis",
+                "active": false
+              },
+              {
+                "tags": "18 Osiemnastka",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/osiemnastka-dominik-388-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/osiemnastka-dominik-388-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tutaj wstaw opis",
+                "active": false
+              },
+              {
+                "tags": "18 Osiemnastka",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/osiemnastka-dominik-406-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/osiemnastka-dominik-406-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tutaj wstaw opis",
+                "active": false
+              },
+              {
+                "tags": "18 Osiemnastka",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/osiemnastka-dominik-419-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/osiemnastka-dominik-419-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tutaj wstaw opis",
+                "active": false
+              },
+              {
+                "tags": "18 Osiemnastka",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/osiemnastka-dominik-494-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/osiemnastka-dominik-494-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tutaj wstaw opis",
                 "active": true
+              },
+              {
+                "tags": "18 Osiemnastka",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/osiemnastka-dominik-506-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/osiemnastka-dominik-506-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tutaj wstaw opis",
+                "active": false
+              },
+              {
+                "tags": "18 Osiemnastka",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/osiemnastka-dominik-286-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/osiemnastka-dominik-286-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tutaj wstaw opis",
+                "active": false
               }
             ]
           }
