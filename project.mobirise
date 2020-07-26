@@ -1411,12 +1411,12 @@
                 "active": false
               },
               {
-                "tags": "Studniówka",
+                "tags": "Komunia",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc-145-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-145-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/komunia-2020-06-11-161-2000x1429.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/komunia-2020-06-11-161-2000x1429-800x572.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -1707,7 +1707,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Tutaj wstaw opis",
-                "active": true
+                "active": false
               },
               {
                 "tags": "18 Osiemnastka",
@@ -1721,6 +1721,71 @@
                 "customStyle1": "display-7",
                 "caption": "Tutaj wstaw opis",
                 "active": false
+              },
+              {
+                "tags": "Komunia",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/komunia-2020-06-11-141-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/komunia-2020-06-11-141-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tutaj wstaw opis",
+                "active": false
+              },
+              {
+                "tags": "Komunia",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/komunia-2020-06-11-177-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/komunia-2020-06-11-177-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tutaj wstaw opis",
+                "active": false
+              },
+              {
+                "tags": "Komunia",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/komunia-2020-06-11-191-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/komunia-2020-06-11-191-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tutaj wstaw opis",
+                "active": false
+              },
+              {
+                "tags": "Komunia",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/komunia-2020-06-11-250-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/komunia-2020-06-11-250-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tutaj wstaw opis",
+                "active": false
+              },
+              {
+                "tags": "Studniówka",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc-145-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-145-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tutaj wstaw opis",
+                "active": true
               }
             ]
           }
