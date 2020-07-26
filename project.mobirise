@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Andrzej Bednarz Fotograf i Grafik Komputerowy Rybnik śląskie",
-    "currentPage": "galeria-abednarz.html",
+    "currentPage": "fotograf-komunia-abednarz.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -38,7 +38,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 69,
+    "uniqCompNum": 70,
     "versionPublish": "4.12.4",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -3046,6 +3046,29 @@
         {
           "alias": false,
           "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "header2",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pełny ekran\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Pokaż strzałki\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Pokaż tytuł\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Pokaż podtytuł\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Pokaż tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Pokaż przyciski\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Obrazek\" value=\"@PROJECT_PATH@/assets/images/komunia-2020-06-21-48-2000x1333.jpg\" parallax selected>\n            <input type=\"color\" title=\"Kolor ta\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Film\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Nakładka\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Kolor nakładki\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Przejrzystość\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                    PEŁNY REPORTAŻ<br>Z KOMUNII ŚWIĘTEJ</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Piękne, przyjazne urządzeniom mobilnym strony internetowe\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Wykonuję zdjęcia podczas uroczystości komunijnej. Mój warsztat polega na pokazaniu na zdjęciach pewnej historii a nie tylko poprawne ustawienie światła i parametrów.\n                </p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"fotograf-komunia-abednarz.html\" data-app-placeholder=\"Type Text\">DOWIEDZ SIĘ WIĘCEJ</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_cid": "s5T3PCJ78Y",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header2-1x"
+        },
+        {
+          "alias": false,
+          "_styles": {
             ".navbar": {
               "background": "@menuBgColor",
               "transition": "none",
@@ -3479,7 +3502,7 @@
             }
           },
           "_name": "content2",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><p><b>Pełny reportaż z komunii świętej\n</b></p><p><span style=\"font-size: 1.09rem;\">Wykonuję zdjęcia podczas uroczystości komunijnej. Mój warsztat polega na pokazaniu na zdjęciach pewnej historii a nie tylko poprawne ustawienie światła i parametrów.&nbsp;</span></p><p><b style=\"font-size: 1.09rem;\">Zyskujesz naturalne fotografie z kościoła i pleneru&nbsp;</b></p><p><span style=\"font-size: 1.09rem;\">Zdjęcia podczas komunii są nasycone emocjami oraz kolorami. Zdaję sobie sprawę z tego, że podczas komunii najważniejsza jest chwila. Po uroczystości w kościele sfotografuję całą Twoją rodzinę podczas sesji indywidualnej.&nbsp;</span></p><p><b style=\"font-size: 1.09rem;\">Indywidualne podejście = wyjątkowe zdjęcia&nbsp;</b></p><p><span style=\"font-size: 1.09rem;\">Decydując się na mnie masz pewność, że otrzymasz zdjęcia niepowtarzalne, które staną się pamiątką na całe życie. Dla mnie zdjęcia podczas komunii to nie kolejne zlecenie. Wykonuję zdjęcia w taki sposób, jakby przystępowało do komunii moje dziecko.</span></p><p><b style=\"font-size: 1.09rem;\">Cena</b></p><p><span style=\"font-size: 1.09rem;\">Cena zależy od ilości dzieci przystępujących do komunii. Wykonam reportaż z komunii już od 80 zł za jedno dziecko, ale tak jak wspomniałem wyżej, cena jest uzależniona od ilości dzieci.</span></p><p><b style=\"font-size: 1.09rem;\">W zamian otrzymujesz</b></p><p><span style=\"font-size: 1.09rem;\">-reportaż z Mszy Św. oraz zdjęcia rodzinne przed/lub po Mszy Św.&nbsp;</span></p><p><span style=\"font-size: 1.09rem;\">-zdjęcie grupowe&nbsp;</span></p><p><span style=\"font-size: 1.09rem;\">-3 zdjęcia drukowane format 15x21cm (zdjęcie grupowe, z rodzicami, portret dziecka&nbsp;</span><span style=\"font-size: 1.09rem;\">– opcja do ustalenia z rodzicami) opakowane w kartonowy Mini Albumik z grafiką komunijną&nbsp;</span></p><p><span style=\"font-size: 1.09rem;\">-płytę DVD ze zdjęciami z uroczystości w kartonowym etui z grafiką nawiązującą do Mini Albumu</span></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><p><b>Pełny reportaż z komunii świętej\n</b></p><p><span style=\"font-size: 1.09rem;\">Wykonuję zdjęcia podczas uroczystości komunijnej. Mój warsztat polega na pokazaniu na zdjęciach pewnej historii a nie tylko poprawne ustawienie światła i parametrów.&nbsp;</span></p><p><b style=\"font-size: 1.09rem;\">Zyskujesz naturalne fotografie z kościoła i pleneru&nbsp;</b></p><p><span style=\"font-size: 1.09rem;\">Zdjęcia podczas komunii są nasycone emocjami oraz kolorami. Zdaję sobie sprawę z tego, że podczas komunii najważniejsza jest chwila. Po uroczystości w kościele sfotografuję całą Twoją rodzinę podczas sesji indywidualnej.&nbsp;</span></p><p><b style=\"font-size: 1.09rem;\">Indywidualne podejście = wyjątkowe zdjęcia&nbsp;</b></p><p><span style=\"font-size: 1.09rem;\">Decydując się na mnie masz pewność, że otrzymasz zdjęcia niepowtarzalne, które staną się pamiątką na całe życie. Dla mnie zdjęcia podczas komunii to nie kolejne zlecenie. Wykonuję zdjęcia w taki sposób, jakby przystępowało do komunii moje dziecko.</span></p><p><b style=\"font-size: 1.09rem;\">Cena</b></p><p><span style=\"font-size: 1.09rem;\">Cena zależy od ilości dzieci przystępujących do komunii. Wykonam reportaż z komunii już od 80 zł za jedno dziecko, ale tak jak wspomniałem wyżej, cena jest uzależniona od ilości dzieci.</span></p><p><b style=\"font-size: 1.09rem;\">W zamian otrzymujesz</b></p><p><span style=\"font-size: 1.09rem;\">-reportaż z Mszy Św. oraz zdjęcia rodzinne przed/lub po Mszy Św.&nbsp;</span></p><p><span style=\"font-size: 1.09rem;\">-zdjęcie grupowe&nbsp;</span></p><p><span style=\"font-size: 1.09rem;\">-3 zdjęcia drukowane format 15x21cm (zdjęcie grupowe, z rodzicami, portret dziecka&nbsp;</span><span style=\"font-size: 1.09rem;\">– opcja do ustalenia z rodzicami) opakowane w kartonowy Mini Albumik z grafiką komunijną&nbsp;</span></p><p><span style=\"font-size: 1.09rem;\">-płytę DVD ze zdjęciami z uroczystości w kartonowym etui z grafiką nawiązującą do Mini Albumu</span></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "s5vlGXv8lm",
           "_anchor": "content2-16",
           "_protectedParams": [],
