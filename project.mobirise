@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Andrzej Bednarz Fotograf i Grafik Komputerowy Rybnik śląskie",
-    "currentPage": "komunijny-czerwiec.html",
+    "currentPage": "galeria-abednarz.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1930,15 +1930,28 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Tutaj wstaw opis",
-                "active": true
+                "active": false
               },
               {
-                "tags": "Sesja narzeczeńska",
+                "tags": "Komunia",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/komunia-2020-06-21-72-800x533.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/komunia-2020-06-21-72-800x533-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tutaj wstaw opis",
+                "active": true
+              },
+              {
+                "tags": "Komunia",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/komunia-2020-06-21-133-800x571.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/komunia-2020-06-21-133-800x571-800x571.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -1950,8 +1963,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/komunia-2020-06-21-133-800x571.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/komunia-2020-06-21-133-800x571-800x571.jpg",
+                "image": "@PROJECT_PATH@/assets/images/komunia-2020-06-28-431-800x533.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/komunia-2020-06-28-431-800x533-800x533.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
